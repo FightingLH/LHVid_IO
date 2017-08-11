@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB54BBC71F3D7892002143A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBC61F3D7892002143A2 /* main.m */; };
+		EB54BBCA1F3D7892002143A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBC91F3D7892002143A2 /* AppDelegate.m */; };
+		EB54BBCD1F3D7892002143A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBCC1F3D7892002143A2 /* ViewController.m */; };
+		EB54BBD01F3D7892002143A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB54BBCE1F3D7892002143A2 /* Main.storyboard */; };
+		EB54BBD21F3D7892002143A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB54BBD11F3D7892002143A2 /* Assets.xcassets */; };
+		EB54BBD51F3D7892002143A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB54BBD31F3D7892002143A2 /* LaunchScreen.storyboard */; };
+		EB54BBE01F3D7892002143A2 /* LHVidioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBDF1F3D7892002143A2 /* LHVidioTests.m */; };
+		EB54BBEB1F3D7892002143A2 /* LHVidioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBEA1F3D7892002143A2 /* LHVidioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB54BBDC1F3D7892002143A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB54BBBA1F3D7892002143A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB54BBC11F3D7892002143A2;
+			remoteInfo = LHVidio;
+		};
+		EB54BBE71F3D7892002143A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB54BBBA1F3D7892002143A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB54BBC11F3D7892002143A2;
+			remoteInfo = LHVidio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB54BBC21F3D7892002143A2 /* LHVidio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHVidio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB54BBC61F3D7892002143A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB54BBC81F3D7892002143A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB54BBC91F3D7892002143A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB54BBCB1F3D7892002143A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB54BBCC1F3D7892002143A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB54BBCF1F3D7892002143A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB54BBD11F3D7892002143A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB54BBD41F3D7892002143A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB54BBD61F3D7892002143A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB54BBDB1F3D7892002143A2 /* LHVidioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHVidioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB54BBDF1F3D7892002143A2 /* LHVidioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHVidioTests.m; sourceTree = "<group>"; };
+		EB54BBE11F3D7892002143A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB54BBE61F3D7892002143A2 /* LHVidioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHVidioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB54BBEA1F3D7892002143A2 /* LHVidioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHVidioUITests.m; sourceTree = "<group>"; };
+		EB54BBEC1F3D7892002143A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB54BBBF1F3D7892002143A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBD81F3D7892002143A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBE31F3D7892002143A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB54BBB91F3D7892002143A2 = {
+			isa = PBXGroup;
+			children = (
+				EB54BBC41F3D7892002143A2 /* LHVidio */,
+				EB54BBDE1F3D7892002143A2 /* LHVidioTests */,
+				EB54BBE91F3D7892002143A2 /* LHVidioUITests */,
+				EB54BBC31F3D7892002143A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB54BBC31F3D7892002143A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB54BBC21F3D7892002143A2 /* LHVidio.app */,
+				EB54BBDB1F3D7892002143A2 /* LHVidioTests.xctest */,
+				EB54BBE61F3D7892002143A2 /* LHVidioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB54BBC41F3D7892002143A2 /* LHVidio */ = {
+			isa = PBXGroup;
+			children = (
+				EB54BBC81F3D7892002143A2 /* AppDelegate.h */,
+				EB54BBC91F3D7892002143A2 /* AppDelegate.m */,
+				EB54BBCB1F3D7892002143A2 /* ViewController.h */,
+				EB54BBCC1F3D7892002143A2 /* ViewController.m */,
+				EB54BBCE1F3D7892002143A2 /* Main.storyboard */,
+				EB54BBD11F3D7892002143A2 /* Assets.xcassets */,
+				EB54BBD31F3D7892002143A2 /* LaunchScreen.storyboard */,
+				EB54BBD61F3D7892002143A2 /* Info.plist */,
+				EB54BBC51F3D7892002143A2 /* Supporting Files */,
+			);
+			path = LHVidio;
+			sourceTree = "<group>";
+		};
+		EB54BBC51F3D7892002143A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB54BBC61F3D7892002143A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB54BBDE1F3D7892002143A2 /* LHVidioTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB54BBDF1F3D7892002143A2 /* LHVidioTests.m */,
+				EB54BBE11F3D7892002143A2 /* Info.plist */,
+			);
+			path = LHVidioTests;
+			sourceTree = "<group>";
+		};
+		EB54BBE91F3D7892002143A2 /* LHVidioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB54BBEA1F3D7892002143A2 /* LHVidioUITests.m */,
+				EB54BBEC1F3D7892002143A2 /* Info.plist */,
+			);
+			path = LHVidioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB54BBC11F3D7892002143A2 /* LHVidio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB54BBEF1F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidio" */;
+			buildPhases = (
+				EB54BBBE1F3D7892002143A2 /* Sources */,
+				EB54BBBF1F3D7892002143A2 /* Frameworks */,
+				EB54BBC01F3D7892002143A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHVidio;
+			productName = LHVidio;
+			productReference = EB54BBC21F3D7892002143A2 /* LHVidio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB54BBDA1F3D7892002143A2 /* LHVidioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB54BBF21F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidioTests" */;
+			buildPhases = (
+				EB54BBD71F3D7892002143A2 /* Sources */,
+				EB54BBD81F3D7892002143A2 /* Frameworks */,
+				EB54BBD91F3D7892002143A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB54BBDD1F3D7892002143A2 /* PBXTargetDependency */,
+			);
+			name = LHVidioTests;
+			productName = LHVidioTests;
+			productReference = EB54BBDB1F3D7892002143A2 /* LHVidioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB54BBE51F3D7892002143A2 /* LHVidioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB54BBF51F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidioUITests" */;
+			buildPhases = (
+				EB54BBE21F3D7892002143A2 /* Sources */,
+				EB54BBE31F3D7892002143A2 /* Frameworks */,
+				EB54BBE41F3D7892002143A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB54BBE81F3D7892002143A2 /* PBXTargetDependency */,
+			);
+			name = LHVidioUITests;
+			productName = LHVidioUITests;
+			productReference = EB54BBE61F3D7892002143A2 /* LHVidioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB54BBBA1F3D7892002143A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lh;
+				TargetAttributes = {
+					EB54BBC11F3D7892002143A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46HK7Y94KA;
+						ProvisioningStyle = Automatic;
+					};
+					EB54BBDA1F3D7892002143A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46HK7Y94KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB54BBC11F3D7892002143A2;
+					};
+					EB54BBE51F3D7892002143A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46HK7Y94KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB54BBC11F3D7892002143A2;
+					};
+				};
+			};
+			buildConfigurationList = EB54BBBD1F3D7892002143A2 /* Build configuration list for PBXProject "LHVidio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB54BBB91F3D7892002143A2;
+			productRefGroup = EB54BBC31F3D7892002143A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB54BBC11F3D7892002143A2 /* LHVidio */,
+				EB54BBDA1F3D7892002143A2 /* LHVidioTests */,
+				EB54BBE51F3D7892002143A2 /* LHVidioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB54BBC01F3D7892002143A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB54BBD51F3D7892002143A2 /* LaunchScreen.storyboard in Resources */,
+				EB54BBD21F3D7892002143A2 /* Assets.xcassets in Resources */,
+				EB54BBD01F3D7892002143A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBD91F3D7892002143A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBE41F3D7892002143A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB54BBBE1F3D7892002143A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB54BBCD1F3D7892002143A2 /* ViewController.m in Sources */,
+				EB54BBCA1F3D7892002143A2 /* AppDelegate.m in Sources */,
+				EB54BBC71F3D7892002143A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBD71F3D7892002143A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB54BBE01F3D7892002143A2 /* LHVidioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB54BBE21F3D7892002143A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB54BBEB1F3D7892002143A2 /* LHVidioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB54BBDD1F3D7892002143A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB54BBC11F3D7892002143A2 /* LHVidio */;
+			targetProxy = EB54BBDC1F3D7892002143A2 /* PBXContainerItemProxy */;
+		};
+		EB54BBE81F3D7892002143A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB54BBC11F3D7892002143A2 /* LHVidio */;
+			targetProxy = EB54BBE71F3D7892002143A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB54BBCE1F3D7892002143A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB54BBCF1F3D7892002143A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB54BBD31F3D7892002143A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB54BBD41F3D7892002143A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB54BBED1F3D7892002143A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB54BBEE1F3D7892002143A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB54BBF01F3D7892002143A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB54BBF11F3D7892002143A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB54BBF31F3D7892002143A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHVidio.app/LHVidio";
+			};
+			name = Debug;
+		};
+		EB54BBF41F3D7892002143A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHVidio.app/LHVidio";
+			};
+			name = Release;
+		};
+		EB54BBF61F3D7892002143A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHVidio;
+			};
+			name = Debug;
+		};
+		EB54BBF71F3D7892002143A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
+				INFOPLIST_FILE = LHVidioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feeyo.LHVidioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHVidio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB54BBBD1F3D7892002143A2 /* Build configuration list for PBXProject "LHVidio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB54BBED1F3D7892002143A2 /* Debug */,
+				EB54BBEE1F3D7892002143A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB54BBEF1F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB54BBF01F3D7892002143A2 /* Debug */,
+				EB54BBF11F3D7892002143A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB54BBF21F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB54BBF31F3D7892002143A2 /* Debug */,
+				EB54BBF41F3D7892002143A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB54BBF51F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB54BBF61F3D7892002143A2 /* Debug */,
+				EB54BBF71F3D7892002143A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB54BBBA1F3D7892002143A2 /* Project object */;
+}
