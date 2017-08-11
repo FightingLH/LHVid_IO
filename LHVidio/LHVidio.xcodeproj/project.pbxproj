@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22314A0318B502CC52BD8863 /* Pods_LHVidio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9460108FCD107A412870850A /* Pods_LHVidio.framework */; };
 		EB54BBC71F3D7892002143A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBC61F3D7892002143A2 /* main.m */; };
 		EB54BBCA1F3D7892002143A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBC91F3D7892002143A2 /* AppDelegate.m */; };
 		EB54BBCD1F3D7892002143A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54BBCC1F3D7892002143A2 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019A9359E3289F6FAD6BC90A /* Pods-LHVidio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHVidio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LHVidio/Pods-LHVidio.debug.xcconfig"; sourceTree = "<group>"; };
+		9460108FCD107A412870850A /* Pods_LHVidio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHVidio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AFD958777D99F95AC5D299 /* Pods-LHVidio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHVidio.release.xcconfig"; path = "Pods/Target Support Files/Pods-LHVidio/Pods-LHVidio.release.xcconfig"; sourceTree = "<group>"; };
 		EB54BBC21F3D7892002143A2 /* LHVidio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHVidio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB54BBC61F3D7892002143A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB54BBC81F3D7892002143A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22314A0318B502CC52BD8863 /* Pods_LHVidio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A90BCE90A1590273577868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				019A9359E3289F6FAD6BC90A /* Pods-LHVidio.debug.xcconfig */,
+				B3AFD958777D99F95AC5D299 /* Pods-LHVidio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1319E6034203562D086C97F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9460108FCD107A412870850A /* Pods_LHVidio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB54BBB91F3D7892002143A2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				EB54BBDE1F3D7892002143A2 /* LHVidioTests */,
 				EB54BBE91F3D7892002143A2 /* LHVidioUITests */,
 				EB54BBC31F3D7892002143A2 /* Products */,
+				11A90BCE90A1590273577868 /* Pods */,
+				1319E6034203562D086C97F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB54BBEF1F3D7892002143A2 /* Build configuration list for PBXNativeTarget "LHVidio" */;
 			buildPhases = (
+				DAE71EC52ADA1C9287624D47 /* [CP] Check Pods Manifest.lock */,
 				EB54BBBE1F3D7892002143A2 /* Sources */,
 				EB54BBBF1F3D7892002143A2 /* Frameworks */,
 				EB54BBC01F3D7892002143A2 /* Resources */,
+				61EDA64D789947639DA1DE49 /* [CP] Embed Pods Frameworks */,
+				13C2AAE2A5792ADC85AA848D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C2AAE2A5792ADC85AA848D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHVidio/Pods-LHVidio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61EDA64D789947639DA1DE49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LHVidio/Pods-LHVidio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE71EC52ADA1C9287624D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB54BBBE1F3D7892002143A2 /* Sources */ = {
@@ -427,6 +502,7 @@
 		};
 		EB54BBF01F3D7892002143A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A9359E3289F6FAD6BC90A /* Pods-LHVidio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46HK7Y94KA;
@@ -439,6 +515,7 @@
 		};
 		EB54BBF11F3D7892002143A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3AFD958777D99F95AC5D299 /* Pods-LHVidio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46HK7Y94KA;
